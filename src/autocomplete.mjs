@@ -10,6 +10,7 @@ export default class extends Controller {
   }
 
   connect() {
+    console.log('running the fork')
     this.resultsTarget.hidden = true
 
     this.inputTarget.setAttribute("autocomplete", "off")
